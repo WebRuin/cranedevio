@@ -94,6 +94,7 @@ a:active {
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
+    color: #111;
 }
 
 .sub-heading {
@@ -707,6 +708,98 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 }
 #about .block img {
     width: 100%;
+}
+
+.price-grid {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.price-grid h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.price-grid h2 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.price-grid ul.gold {
+    padding: 2rem;
+}
+
+.price-grid ul.gold li {
+    color: rgb(151, 118, 11);
+}
+
+.desc {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.desc.gold {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.desc ul {
+    list-style-type: disc;
+    padding: 2rem;
+}
+
+.desc ul li {
+  color: #fff;
+}
+
+.price {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.price.basic {
+  color: rgb(4, 71, 71);
+}
+.price.premier {
+  color: rgb(151, 118, 11);
+}
+.price.gold {
+  color: rgb(7, 49, 73);
+}
+
+.price-grid .price-grid-basic {
+  width: 31%;
+  background-color: rgb(7, 144, 144);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(4, 71, 71);
+  border-right: 0;
+}
+
+.price-grid .price-grid-gold {
+  width: 48%;
+  height: 470px;
+  background-color: rgb(214, 168, 16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(151, 118, 11);
+}
+
+.price-grid .price-grid-premier {
+  width: 31%;
+  background-color: rgb(14, 96, 143);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(7, 49, 73);
+  border-left: 0;
 }
 
 
