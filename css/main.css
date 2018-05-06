@@ -28,6 +28,7 @@ h1 {
 h2 {
   font-size: 30px;
   line-height: 35px;
+  color: #fff;
 }
 h3 {
     font-size: 23px;
@@ -337,7 +338,7 @@ a:active {
 
 #hero-area {
   padding:180px 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #41aba0 100%) repeat scroll 0 0;
+    background: linear-gradient(135deg, #04161bb4 0%, #031311be 100%), url('../images/tech-min_opt.jpg') repeat scroll 0 0;
 }
 #hero-area:before {
     content: "";
@@ -377,6 +378,15 @@ a:active {
 
 .navbar-default {
     padding:20px;
+}
+
+svg {
+    padding: 0;
+    height: 37px;
+}
+
+svg polygon {
+    fill: orange;
 }
 
 
